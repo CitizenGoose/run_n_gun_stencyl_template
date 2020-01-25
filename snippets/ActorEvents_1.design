@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <scaleTo comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="150"/>
+                    <int id="2" val="150"/>
+                    <int id="3" val="0.01"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <custom-code comment="false" x="26" y="40">
+                    <int id="0" val="Engine.STEP_SIZE = 50;"/>
+                </custom-code>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="3" id="-1">
+                        <if comment="false" x="37" y="73">
+                            <group eventID="3" id="-1">
+                                <custom-code comment="false" x="48" y="103">
+                                    <int id="0" val="Engine.STEP_SIZE = 50;"/>
+                                </custom-code>
+                                <set-game-val-4 comment="false" x="48" y="123">
+                                    <int id="0" val="50"/>
+                                </set-game-val-4>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="10"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <control eid="7" id="1"/>
+                    </keystate>
+                </if>
+                <else comment="false" x="26" y="167">
+                    <group eventID="3" id="-1">
+                        <if comment="false" x="37" y="187">
+                            <group eventID="3" id="-1">
+                                <custom-code comment="false" x="48" y="217">
+                                    <int id="0" val="Engine.STEP_SIZE = 10;"/>
+                                </custom-code>
+                                <set-game-val-4 comment="false" x="48" y="237">
+                                    <int id="0" val="10"/>
+                                </set-game-val-4>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="50"/>
+                            </eq>
+                        </if>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1">
+        <or comment="false" x="388" y="132">
+            <int id="0" val=""/>
+            <keystate comment="false" id="1" x="0" y="0">
+                <int id="0" val="0"/>
+                <control eid="2" id="1"/>
+            </keystate>
+        </or>
+    </group>
+    <group eventID="4" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="4" id="-1">
+                        <die comment="false" x="37" y="90">
+                            <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </die>
+                        <set-game-val-2 comment="false" x="37" y="122">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="10"/>
+                            </minus>
+                        </set-game-val-2>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <getanim comment="false" id="0" x="0" y="0">
+                            <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </getanim>
+                        <int id="1" val="enemy"/>
+                    </eq>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="7" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="4" id="-1"/>
+</groups>

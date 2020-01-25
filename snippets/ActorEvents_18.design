@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-color comment="false" x="26" y="40">
+                    <color b="51" g="255" id="0" r="51"/>
+                </set-color>
+                <drawfill-rect comment="false" x="26" y="67">
+                    <int id="0" val="1"/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </get-xy>
+                        <int id="1" val="530"/>
+                    </minus>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </get-xy>
+                        <int id="1" val="10"/>
+                    </minus>
+                    <times comment="false" id="3" x="0" y="0">
+                        <int id="0" val="1.6"/>
+                        <get-game-val-2 comment="false" id="1" x="0" y="0"/>
+                    </times>
+                    <int id="4" val="20"/>
+                </drawfill-rect>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1">
+        <plus comment="false" x="176" y="244">
+            <screen-xy comment="false" id="0" x="0" y="0">
+                <int id="0" val="0"/>
+            </screen-xy>
+            <int id="1" val=""/>
+        </plus>
+    </group>
+</groups>

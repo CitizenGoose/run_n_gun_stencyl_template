@@ -1,0 +1,17 @@
+#
+#Thu Dec 19 15:45:24 CET 2019
+style=bold italic
+alphabet=
+stroke.color=\#000000
+color=\#ffffff
+shadow.y=0
+family=SansSerif
+shadow.x=0
+shadow.color=\#000000
+gradient.offset=5
+shadow.blur=0
+chars=all
+gradient.color=\#c0c0c0
+stroke.size=1
+antialias=true
+size=31

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-val-32-1 comment="false" x="26" y="40">
+                    <int id="0" val="32"/>
+                </set-val-32-1>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-game-val-3 comment="false" x="26" y="40">
+                    <get-val-32-1 comment="false" id="0" x="0" y="0"/>
+                </set-game-val-3>
+            </group>
+            <int id="0" val="setCurrentAmmo"/>
+        </event-custom>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-32-1 comment="false" x="26" y="40">
+                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                </set-val-32-1>
+            </group>
+            <int id="0" val="setAmmo"/>
+        </event-custom>
+    </group>
+    <group eventID="3" id="1">
+        <set-game-val-3 comment="false" x="123" y="291">
+            <get-val-32-1 comment="false" id="0" x="0" y="0"/>
+        </set-game-val-3>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <set-val-32-2 comment="false" x="26" y="40">
+                    <int id="0" val="0"/>
+                </set-val-32-2>
+            </group>
+        </init>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-periodic comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <set-val-32-2 comment="false" x="26" y="42">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-val-32-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="45"/>
+                    </plus>
+                </set-val-32-2>
+                <clear-filter comment="false" x="26" y="72">
+                    <ACTOR eid="this" id="0"/>
+                </clear-filter>
+                <apply-filter comment="false" x="26" y="99">
+                    <ACTOR eid="this" id="0"/>
+                    <filter-bright comment="false" id="1" x="0" y="0">
+                        <times comment="false" id="0" x="0" y="0">
+                            <abs comment="false" id="0" x="0" y="0">
+                                <plus comment="false" id="0" x="0" y="0">
+                                    <trig-master comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                        <get-val-32-2 comment="false" id="1" x="0" y="0"/>
+                                        <int id="2" val="0"/>
+                                    </trig-master>
+                                    <int id="1" val="0"/>
+                                </plus>
+                            </abs>
+                            <int id="1" val="100"/>
+                        </times>
+                    </filter-bright>
+                </apply-filter>
+            </group>
+            <int id="0" val="0.5"/>
+            <ACTOR eid="this" id="2"/>
+        </event-periodic>
+    </group>
+    <group eventID="5" id="-1"/>
+</groups>

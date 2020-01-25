@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <scaleTo comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="175"/>
+                    <int id="2" val="175"/>
+                    <int id="3" val="0.01"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="6" id="-1">
+                <ignore-screen-tolerance2 comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                </ignore-screen-tolerance2>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-val-53-4 comment="false" x="26" y="47">
+                    <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                </set-val-53-4>
+                <shout comment="false" x="26" y="79">
+                    <ACTOR eid="var" id="0" vid="4"/>
+                    <int id="1" val="updateModePatrol"/>
+                </shout>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="14" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="4" id="-1">
+                        <set-val-53-3 comment="false" x="37" y="85">
+                            <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </set-val-53-3>
+                        <shout comment="false" x="37" y="117">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                            <int id="1" val="updateModePatrol"/>
+                        </shout>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <value comment="false" id="0" x="0" y="0">
+                            <int id="0" val="3"/>
+                            <int id="1" val="0"/>
+                        </value>
+                    </not>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="16" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="5" id="-1">
+                        <if comment="false" x="37" y="90">
+                            <group eventID="5" id="-1">
+                                <set-val-53-10 comment="false" x="48" y="133">
+                                    <int id="0" val="1"/>
+                                </set-val-53-10>
+                            </group>
+                            <moreeq comment="false" id="0" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="3"/>
+                                </get-xy>
+                                <get-xy comment="false" id="1" x="0" y="0">
+                                    <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="3"/>
+                                </get-xy>
+                            </moreeq>
+                        </if>
+                        <if comment="false" x="37" y="165">
+                            <group eventID="5" id="-1">
+                                <set-val-53-10 comment="false" x="48" y="208">
+                                    <int id="0" val="2"/>
+                                </set-val-53-10>
+                            </group>
+                            <moreeq comment="false" id="0" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="3"/>
+                                </get-xy>
+                                <get-xy comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="3"/>
+                                </get-xy>
+                            </moreeq>
+                        </if>
+                        <die comment="false" x="37" y="240">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                        </die>
+                        <die comment="false" x="37" y="267">
+                            <ACTOR eid="var" id="0" vid="4"/>
+                        </die>
+                        <die comment="false" x="37" y="294">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <getanim comment="false" id="0" x="0" y="0">
+                            <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </getanim>
+                        <int id="1" val="player"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="333">
+                    <group eventID="5" id="-1">
+                        <set-val-53-10 comment="false" x="37" y="376">
+                            <int id="0" val="3"/>
+                        </set-val-53-10>
+                        <die comment="false" x="37" y="396">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                        </die>
+                        <die comment="false" x="37" y="423">
+                            <ACTOR eid="var" id="0" vid="4"/>
+                        </die>
+                        <die comment="false" x="37" y="450">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <getanim comment="false" id="0" x="0" y="0">
+                            <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </getanim>
+                        <int id="1" val="shotgunPlayer"/>
+                    </eq>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="7" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="5" id="1">
+        <if comment="false" x="45" y="673">
+            <group eventID="5" id="-1">
+                <set-val-53-10 comment="false" x="56" y="716">
+                    <int id="0" val="1"/>
+                </set-val-53-10>
+            </group>
+            <moreeq comment="false" id="0" x="0" y="0">
+                <get-xy comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="3"/>
+                </get-xy>
+                <get-xy comment="false" id="1" x="0" y="0">
+                    <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="3"/>
+                </get-xy>
+            </moreeq>
+        </if>
+        <if comment="false" x="45" y="748">
+            <group eventID="5" id="-1"/>
+            <moreeq comment="false" id="0" x="0" y="0">
+                <get-xy comment="false" id="0" x="0" y="0">
+                    <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="3"/>
+                </get-xy>
+                <get-xy comment="false" id="1" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="3"/>
+                </get-xy>
+            </moreeq>
+        </if>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="6" id="-1">
+                        <die comment="false" x="37" y="95">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                        </die>
+                        <die comment="false" x="37" y="122">
+                            <ACTOR eid="var" id="0" vid="4"/>
+                        </die>
+                        <die comment="false" x="37" y="149">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <moreeq comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="6"/>
+                        </moreeq>
+                        <lesseq comment="false" id="1" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="-6"/>
+                        </lesseq>
+                    </or>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="5" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="6" id="-1"/>
+    <group eventID="7" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <set-dxy comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="10"/>
+                </set-dxy>
+                <scaleTo comment="false" x="26" y="74">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="-150"/>
+                    <int id="2" val="150"/>
+                    <int id="3" val="0.01"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+                <set-val-53-9 comment="false" x="26" y="101">
+                    <int id="0" val="right"/>
+                </set-val-53-9>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="32" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="7" id="-1"/>
+    <group eventID="8" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <set-dxy comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="-10"/>
+                </set-dxy>
+                <scaleTo comment="false" x="26" y="74">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="150"/>
+                    <int id="2" val="150"/>
+                    <int id="3" val="0.01"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+                <set-val-53-9 comment="false" x="26" y="101">
+                    <int id="0" val="left"/>
+                </set-val-53-9>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="34" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="8" id="-1"/>
+    <group eventID="9" id="0">
+        <init comment="false" x="44" y="15">
+            <group eventID="9" id="-1">
+                <set-dxy comment="false" x="55" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                </set-dxy>
+                <set-val-53-9 comment="false" x="55" y="67">
+                    <int id="0" val="right"/>
+                </set-val-53-9>
+            </group>
+        </init>
+    </group>
+    <group eventID="9" id="-1"/>
+    <group eventID="10" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="10" id="-1">
+                <set-val-53-5 comment="false" x="26" y="40">
+                    <int id="0" val="patrol"/>
+                </set-val-53-5>
+            </group>
+        </init>
+    </group>
+    <group eventID="10" id="-1"/>
+    <group eventID="11" id="0">
+        <event-periodic comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="11" id="-1">
+                        <if comment="false" x="37" y="90">
+                            <group eventID="11" id="-1">
+                                <create-actor3 comment="false" x="48" y="120">
+                                    <actortype eid="36" id="0"/>
+                                    <get-xy comment="false" id="1" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="0"/>
+                                    </get-xy>
+                                    <plus comment="false" id="2" x="0" y="0">
+                                        <get-xy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="1"/>
+                                        </get-xy>
+                                        <int id="1" val="0"/>
+                                    </plus>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                                <setanim comment="false" x="48" y="165">
+                                    <ACTOR eid="lastcreated" id="0"/>
+                                    <int id="1" val="enemy"/>
+                                </setanim>
+                                <set-val-53-6 comment="false" x="48" y="192">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <plus comment="false" id="0" x="0" y="0">
+                                            <screen-xy comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                            </screen-xy>
+                                            <get-xy comment="false" id="1" x="0" y="0">
+                                                <ACTOR eid="var" id="0" vid="8"/>
+                                                <int id="1" val="4"/>
+                                            </get-xy>
+                                        </plus>
+                                        <get-xy comment="false" id="1" x="0" y="0">
+                                            <ACTOR eid="lastcreated" id="0"/>
+                                            <int id="1" val="2"/>
+                                        </get-xy>
+                                    </minus>
+                                </set-val-53-6>
+                                <set-val-53-7 comment="false" x="48" y="235">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <plus comment="false" id="0" x="0" y="0">
+                                            <screen-xy comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="1"/>
+                                            </screen-xy>
+                                            <get-xy comment="false" id="1" x="0" y="0">
+                                                <ACTOR eid="var" id="0" vid="8"/>
+                                                <int id="1" val="5"/>
+                                            </get-xy>
+                                        </plus>
+                                        <get-xy comment="false" id="1" x="0" y="0">
+                                            <ACTOR eid="lastcreated" id="0"/>
+                                            <int id="1" val="3"/>
+                                        </get-xy>
+                                    </minus>
+                                </set-val-53-7>
+                                <push-shove2 comment="false" x="48" y="278">
+                                    <ACTOR eid="lastcreated" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <to-degreesradians comment="false" id="2" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                        <atan2 comment="false" id="1" x="0" y="0">
+                                            <get-val-53-7 comment="false" id="0" x="0" y="0"/>
+                                            <get-val-53-6 comment="false" id="1" x="0" y="0"/>
+                                        </atan2>
+                                    </to-degreesradians>
+                                    <int id="3" val="50"/>
+                                </push-shove2>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-53-5 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="patrol"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <and comment="false" id="0" x="0" y="0">
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-53-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="left"/>
+                            </eq>
+                            <more comment="false" id="1" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-xy>
+                                <get-xy comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="var" id="0" vid="8"/>
+                                    <int id="1" val="0"/>
+                                </get-xy>
+                            </more>
+                        </and>
+                        <and comment="false" id="1" x="0" y="0">
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-53-9 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="right"/>
+                            </eq>
+                            <more comment="false" id="1" x="0" y="0">
+                                <get-xy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="var" id="0" vid="8"/>
+                                    <int id="1" val="0"/>
+                                </get-xy>
+                                <get-xy comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-xy>
+                            </more>
+                        </and>
+                    </or>
+                </if>
+            </group>
+            <int id="0" val="0.5"/>
+            <ACTOR eid="this" id="2"/>
+        </event-periodic>
+    </group>
+    <group eventID="11" id="1">
+        <mousexy comment="false" x="1061" y="72">
+            <int id="0" val="0"/>
+            <int id="1" val="0"/>
+        </mousexy>
+        <mousexy comment="false" x="1061" y="99">
+            <int id="0" val="0"/>
+            <int id="1" val="1"/>
+        </mousexy>
+    </group>
+    <group eventID="11" id="2">
+        <if comment="false" x="200" y="603">
+            <group eventID="11" id="-1"/>
+            <int id="0" val=""/>
+        </if>
+    </group>
+    <group eventID="11" id="-1">
+        <minus comment="false" x="178" y="664">
+            <int id="0" val=""/>
+            <int id="1" val="0"/>
+        </minus>
+    </group>
+    <group eventID="12" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-53-2 comment="false" x="26" y="40">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-53-2>
+                <actors-of-type3 comment="false" x="26" y="65">
+                    <group eventID="2" id="-1">
+                        <set-val-53-8 comment="false" x="37" y="97">
+                            <actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </set-val-53-8>
+                    </group>
+                    <actortype eid="1" id="0"/>
+                </actors-of-type3>
+            </group>
+        </init>
+    </group>
+    <group eventID="12" id="-1"/>
+    <group eventID="13" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="13" id="-1">
+                        <if comment="false" x="37" y="100">
+                            <group eventID="13" id="-1">
+                                <die comment="false" x="48" y="143">
+                                    <ACTOR eid="var" id="0" vid="3"/>
+                                </die>
+                                <die comment="false" x="48" y="170">
+                                    <ACTOR eid="var" id="0" vid="4"/>
+                                </die>
+                                <die comment="false" x="48" y="197">
+                                    <ACTOR eid="this" id="0"/>
+                                </die>
+                            </group>
+                            <more comment="false" id="0" x="0" y="0">
+                                <plus comment="false" id="0" x="0" y="0">
+                                    <get-xy comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="0"/>
+                                    </get-xy>
+                                    <int id="1" val="-5"/>
+                                </plus>
+                                <get-xy comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="var" id="0" vid="8"/>
+                                    <int id="1" val="0"/>
+                                </get-xy>
+                            </more>
+                        </if>
+                        <else comment="false" x="37" y="236">
+                            <group eventID="13" id="-1">
+                                <dolater comment="false" x="48" y="256">
+                                    <group eventID="13" id="-1">
+                                        <if comment="false" x="59" y="283">
+                                            <group eventID="13" id="-1">
+                                                <set-val-53-5 comment="false" x="70" y="316">
+                                                    <int id="0" val="attack"/>
+                                                </set-val-53-5>
+                                                <shout comment="false" x="70" y="336">
+                                                    <ACTOR eid="var" id="0" vid="4"/>
+                                                    <int id="1" val="updateModeAttack"/>
+                                                </shout>
+                                                <shout comment="false" x="70" y="363">
+                                                    <ACTOR eid="var" id="0" vid="3"/>
+                                                    <int id="1" val="updateModeAttack"/>
+                                                </shout>
+                                            </group>
+                                            <isalive comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                            </isalive>
+                                        </if>
+                                    </group>
+                                    <int id="0" val="1"/>
+                                    <ACTOR eid="this" id="2"/>
+                                </dolater>
+                            </group>
+                        </else>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <or comment="false" id="0" x="0" y="0">
+                            <eq comment="false" id="0" x="0" y="0">
+                                <getanim comment="false" id="0" x="0" y="0">
+                                    <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                </getanim>
+                                <int id="1" val="rollRight"/>
+                            </eq>
+                            <eq comment="false" id="1" x="0" y="0">
+                                <getanim comment="false" id="0" x="0" y="0">
+                                    <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                </getanim>
+                                <int id="1" val="rollLeft"/>
+                            </eq>
+                        </or>
+                    </not>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="1" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="13" id="-1"/>
+    <group eventID="14" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="14" id="-1">
+                <set-val-53-5 comment="false" x="26" y="40">
+                    <int id="0" val="attack"/>
+                </set-val-53-5>
+                <shout comment="false" x="26" y="60">
+                    <ACTOR eid="var" id="0" vid="4"/>
+                    <int id="1" val="updateModeAttack"/>
+                </shout>
+                <shout comment="false" x="26" y="87">
+                    <ACTOR eid="var" id="0" vid="3"/>
+                    <int id="1" val="updateModeAttack"/>
+                </shout>
+            </group>
+            <int id="0" val="playerSpotted"/>
+        </event-custom>
+    </group>
+    <group eventID="14" id="-1"/>
+    <group eventID="15" id="0">
+        <event-actor-create-kill comment="false" x="15" y="15">
+            <group eventID="15" id="-1">
+                <create-actor3 comment="false" x="26" y="42">
+                    <actortype eid="44" id="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </get-xy>
+                        <int id="1" val="30"/>
+                    </minus>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <if comment="false" x="26" y="87">
+                    <group eventID="15" id="-1">
+                        <setanim comment="false" x="37" y="117">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="1"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-53-10 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="156">
+                    <group eventID="15" id="-1">
+                        <setanim comment="false" x="37" y="186">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="2"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-53-10 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="225">
+                    <group eventID="15" id="-1">
+                        <setanim comment="false" x="37" y="255">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="3"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-53-10 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="3"/>
+                    </eq>
+                </if>
+                <scaleTo comment="false" x="26" y="294">
+                    <ACTOR eid="lastcreated" id="0"/>
+                    <int id="1" val="125"/>
+                    <int id="2" val="125"/>
+                    <int id="3" val="0.01"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+            </group>
+            <int id="0" val="1"/>
+            <ACTOR eid="this" id="1"/>
+        </event-actor-create-kill>
+    </group>
+    <group eventID="15" id="-1"/>
+    <group eventID="16" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="6" id="-1">
+                        <die comment="false" x="37" y="95">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                        </die>
+                        <die comment="false" x="37" y="122">
+                            <ACTOR eid="var" id="0" vid="4"/>
+                        </die>
+                        <die comment="false" x="37" y="149">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <moreeq comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="6"/>
+                        </moreeq>
+                        <lesseq comment="false" id="1" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="-6"/>
+                        </lesseq>
+                    </or>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="40" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="16" id="-1"/>
+    <group eventID="17" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="6" id="-1">
+                        <die comment="false" x="37" y="95">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                        </die>
+                        <die comment="false" x="37" y="122">
+                            <ACTOR eid="var" id="0" vid="4"/>
+                        </die>
+                        <die comment="false" x="37" y="149">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <moreeq comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="6"/>
+                        </moreeq>
+                        <lesseq comment="false" id="1" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="-6"/>
+                        </lesseq>
+                    </or>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="38" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="17" id="-1"/>
+    <group eventID="18" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="6" id="-1">
+                        <die comment="false" x="37" y="95">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                        </die>
+                        <die comment="false" x="37" y="122">
+                            <ACTOR eid="var" id="0" vid="4"/>
+                        </die>
+                        <die comment="false" x="37" y="149">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <moreeq comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="6"/>
+                        </moreeq>
+                        <lesseq comment="false" id="1" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="-6"/>
+                        </lesseq>
+                    </or>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="42" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="18" id="-1"/>
+    <group eventID="19" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="19" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="19" id="-1">
+                        <if comment="false" x="37" y="83">
+                            <group eventID="19" id="-1">
+                                <setanim comment="false" x="48" y="126">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="walk"/>
+                                </setanim>
+                            </group>
+                            <not comment="false" id="0" x="0" y="0">
+                                <eq comment="false" id="0" x="0" y="0">
+                                    <getanim comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </getanim>
+                                    <int id="1" val="walk"/>
+                                </eq>
+                            </not>
+                        </if>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <more comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="5"/>
+                        </more>
+                        <less comment="false" id="1" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="-5"/>
+                        </less>
+                    </or>
+                </if>
+                <else comment="false" x="26" y="177">
+                    <group eventID="19" id="-1">
+                        <if comment="false" x="37" y="197">
+                            <group eventID="19" id="-1">
+                                <setanim comment="false" x="48" y="240">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="stand"/>
+                                </setanim>
+                            </group>
+                            <not comment="false" id="0" x="0" y="0">
+                                <eq comment="false" id="0" x="0" y="0">
+                                    <getanim comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </getanim>
+                                    <int id="1" val="stand"/>
+                                </eq>
+                            </not>
+                        </if>
+                    </group>
+                </else>
+            </group>
+        </draw>
+    </group>
+    <group eventID="19" id="-1"/>
+    <group eventID="20" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="6" id="-1">
+                        <die comment="false" x="37" y="95">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                        </die>
+                        <die comment="false" x="37" y="122">
+                            <ACTOR eid="var" id="0" vid="4"/>
+                        </die>
+                        <die comment="false" x="37" y="149">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <moreeq comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="6"/>
+                        </moreeq>
+                        <lesseq comment="false" id="1" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="-6"/>
+                        </lesseq>
+                    </or>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="51" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="20" id="-1"/>
+    <group eventID="21" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="6" id="-1">
+                        <die comment="false" x="37" y="95">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                        </die>
+                        <die comment="false" x="37" y="122">
+                            <ACTOR eid="var" id="0" vid="4"/>
+                        </die>
+                        <die comment="false" x="37" y="149">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <moreeq comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="6"/>
+                        </moreeq>
+                        <lesseq comment="false" id="1" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="-6"/>
+                        </lesseq>
+                    </or>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="57" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="21" id="-1"/>
+    <group eventID="22" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="6" id="-1">
+                        <die comment="false" x="37" y="95">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                        </die>
+                        <die comment="false" x="37" y="122">
+                            <ACTOR eid="var" id="0" vid="4"/>
+                        </die>
+                        <die comment="false" x="37" y="149">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <moreeq comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="6"/>
+                        </moreeq>
+                        <lesseq comment="false" id="1" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="-6"/>
+                        </lesseq>
+                    </or>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="55" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="22" id="-1"/>
+    <group eventID="23" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="6" id="-1">
+                        <die comment="false" x="37" y="95">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                        </die>
+                        <die comment="false" x="37" y="122">
+                            <ACTOR eid="var" id="0" vid="4"/>
+                        </die>
+                        <die comment="false" x="37" y="149">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <moreeq comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="6"/>
+                        </moreeq>
+                        <lesseq comment="false" id="1" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="-6"/>
+                        </lesseq>
+                    </or>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="53" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="23" id="-1"/>
+    <group eventID="24" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="6" id="-1">
+                        <die comment="false" x="37" y="95">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                        </die>
+                        <die comment="false" x="37" y="122">
+                            <ACTOR eid="var" id="0" vid="4"/>
+                        </die>
+                        <die comment="false" x="37" y="149">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <moreeq comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="6"/>
+                        </moreeq>
+                        <lesseq comment="false" id="1" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="-6"/>
+                        </lesseq>
+                    </or>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="59" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="24" id="-1"/>
+    <group eventID="25" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="6" id="-1">
+                        <die comment="false" x="37" y="95">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                        </die>
+                        <die comment="false" x="37" y="122">
+                            <ACTOR eid="var" id="0" vid="4"/>
+                        </die>
+                        <die comment="false" x="37" y="149">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <moreeq comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="6"/>
+                        </moreeq>
+                        <lesseq comment="false" id="1" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="-6"/>
+                        </lesseq>
+                    </or>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="61" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="25" id="-1"/>
+    <group eventID="26" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="4" id="-1">
+                        <set-val-53-3 comment="false" x="37" y="85">
+                            <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </set-val-53-3>
+                        <shout comment="false" x="37" y="117">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                            <int id="1" val="updateModePatrol"/>
+                        </shout>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <value comment="false" id="0" x="0" y="0">
+                            <int id="0" val="3"/>
+                            <int id="1" val="0"/>
+                        </value>
+                    </not>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="63" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="26" id="-1"/>
+    <group eventID="27" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="4" id="-1">
+                        <set-val-53-3 comment="false" x="37" y="85">
+                            <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </set-val-53-3>
+                        <shout comment="false" x="37" y="117">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                            <int id="1" val="updateModePatrol"/>
+                        </shout>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <value comment="false" id="0" x="0" y="0">
+                            <int id="0" val="3"/>
+                            <int id="1" val="0"/>
+                        </value>
+                    </not>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="65" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="27" id="-1"/>
+    <group eventID="28" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="4" id="-1">
+                        <set-val-53-3 comment="false" x="37" y="85">
+                            <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </set-val-53-3>
+                        <shout comment="false" x="37" y="117">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                            <int id="1" val="updateModePatrol"/>
+                        </shout>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <value comment="false" id="0" x="0" y="0">
+                            <int id="0" val="3"/>
+                            <int id="1" val="0"/>
+                        </value>
+                    </not>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="67" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="28" id="-1"/>
+    <group eventID="29" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="4" id="-1">
+                        <set-val-53-3 comment="false" x="37" y="85">
+                            <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </set-val-53-3>
+                        <shout comment="false" x="37" y="117">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                            <int id="1" val="updateModePatrol"/>
+                        </shout>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <value comment="false" id="0" x="0" y="0">
+                            <int id="0" val="3"/>
+                            <int id="1" val="0"/>
+                        </value>
+                    </not>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="71" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="29" id="-1"/>
+</groups>

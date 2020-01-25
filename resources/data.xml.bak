@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="114" id="77" name="AmmoFont" offsets="0|0|0|,10|0|10,22|0|22,37|0|37,56|0|56,76|0|76,103|0|103,125|0|125,133|0|133,148|0|148,163|0|163,177|0|177,195|0|195,205|0|205,218|0|218,227|0|227,245|0|245,264|0|264,279|0|279,298|0|298,316|0|316,335|0|335,354|0|354,372|0|372,391|0|391,410|0|410,428|0|428,439|0|439,451|0|451,469|0|469,487|0|487,505|0|505,523|0|523,555|0|555,580|0|580,604|0|604,627|0|627,651|0|651,675|0|675,698|0|698,722|0|722,748|0|748,760|0|760,781|0|781,809|0|809,829|0|829,858|0|858,884|0|884,908|0|908,932|0|932,956|0|956,981|0|981,1003|0|1003,1024|0|1024,1048|0|1048,1073|0|1073,1105|0|1105,1134|0|1134,1159|0|1159,1182|0|1182,1199|0|1199,1209|0|1209,1226|0|1226,1244|0|1244,1264|0|1264,1273|0|1273,1291|0|1291,1312|0|1312,1330|0|1330,1352|0|1352,1370|0|1370,1386|0|1386,1407|0|1407,1427|0|1427,1439|0|1439,1455|0|1455,1477|0|1477,1489|0|1489,1518|0|1518,1538|0|1538,1558|0|1558,1580|0|1580,1600|0|1600,1617|0|1617,1636|0|1636,1649|0|1649,1669|0|1669,1689|0|1689,1716|0|1716,1740|0|1740,1763|0|1763,1782|0|1782,1799|0|1799,1805|0|1805,1822|0|1822,1841|0|1841,1859|0|1859,1860|0|1860,1861|0|1861,1862|0|1862,1863|0|1863,1864|0|1864,1865|0|1865,1866|0|1866,1867|0|1867,1868|0|1868,1869|0|1869,1870|0|1870,1871|0|1871,1872|0|1872,1873|0|1873,1874|0|1874,1875|0|1875,1876|0|1876,1877|0|1877,1878|0|1878,1879|0|1879,1880|0|1880,1881|0|1881,1882|0|1882,1883|0|1883,1884|0|1884,1885|0|1885,1886|0|1886,1887|0|1887,1888|0|1888,1889|0|1889,1890|0|1890,1891|0|1891,1901|0|1901,1914|0|1914,1932|0|1932,1953|0|1953,1972|0|1972,1995|0|1995,2001|0|2001,2020|0|2020,2034|0|2034,2060|0|2060,2073|0|2073,2092|0|2092,2110|0|2110,2123|0|2123,2149|0|2149,2170|0|2170,2183|0|2183,2201|0|2201,2213|0|2213,2226|0|2226,2238|0|2238,2260|0|2260,2280|0|2280,2288|0|2288,2299|0|2299,2310|0|2310,2324|0|2324,2344|0|2344,2371|0|2371,2398|0|2398,2426|0|2426,2444|0|2444,2469|0|2469,2494|0|2494,2519|0|2519,2544|0|2544,2570|0|2570,2595|0|2595,2632|0|2632,2655|0|2655,2679|0|2679,2703|0|2703,2727|0|2727,2751|0|2751,2764|0|2764,2779|0|2779,2794|0|2794,2811|0|2811,2835|0|2835,2861|0|2861,2885|0|2885,2909|0|2909,2933|0|2933,2957|0|2957,2981|0|2981,2999|0|2999,3025|0|3025,0|38|3049,24|38|3073,48|38|3097,72|38|3121,97|38|3146,120|38|3169,140|38|3189,158|38|3207,176|38|3225,194|38|3243,212|38|3261,232|38|3281,250|38|3299,279|38|3328,297|38|3346,315|38|3364,333|38|3382,351|38|3400,370|38|3419,382|38|3431,397|38|3446,411|38|3460,427|38|3476,447|38|3496,467|38|3516,487|38|3536,507|38|3556,527|38|3576,547|38|3596,567|38|3616,585|38|3634,605|38|3654,625|38|3674,645|38|3694,665|38|3714,685|38|3734,708|38|3757,730|38|3779,753|38|3802,778|38|3827,796|38|3845,821|38|3870,840|38|3889,865|38|3914,883|38|3932,906|38|3955,924|38|3973,947|38|3996,965|38|4014,988|38|4037,1006|38|4055,1029|38|4078,1049|38|4098,1073|38|4122,1101|38|4150,1125|38|4174,1149|38|4198,1173|38|4222,1191|38|4240,1215|38|4264,1233|38|4282,1257|38|4306,1275|38|4324,1299|38|4348,1317|38|4366,1341|38|4390,1360|38|4409,1384|38|4433,1405|38|4454,1429|38|4478,1450|38|4499,1474|38|4523,1495|38|4544,1519|38|4568,1540|38|4589,1566|38|4615,1587|38|4636,1614|38|4663,1634|38|4683,1649|38|4698,1663|38|4712,1679|38|4728,1694|38|4743,1709|38|4758,1723|38|4772,1736|38|4785,1749|38|4798,1762|38|4811,1773|38|4822,1801|38|4850,1822|38|4871,1845|38|4894,1863|38|4912,1891|38|4940,1913|38|4962,1935|38|4984,1955|38|5004,1971|38|5020,1991|38|5040,2005|38|5054,2026|38|5075,2044|38|5093,2064|38|5113,2081|38|5130,2102|38|5151,2114|38|5163,2140|38|5189,2160|38|5209,2186|38|5235,2206|38|5255,2232|38|5281,2253|38|5302,2276|38|5325,2301|38|5350,2321|38|5370,2345|38|5394,2365|38|5414,2389|38|5438,2409|38|5458,2433|38|5482,2454|38|5503,2488|38|5537,2518|38|5567,2543|38|5592,2561|38|5610,2586|38|5635,2605|38|5654,2630|38|5679,2649|38|5698,2671|38|5720,2690|38|5739,2712|38|5761,2731|38|5780,2753|38|5802,2772|38|5821,2794|38|5843,2814|38|5863,2835|38|5884,2850|38|5899,2871|38|5920,2891|38|5940,2913|38|5962,2927|38|5976,2951|38|6000,2971|38|6020,2995|38|6044,0|76|6064,24|76|6088,44|76|6108,68|76|6132,88|76|6152,112|76|6176,134|76|6198,158|76|6222,178|76|6242,210|76|6274,237|76|6301,262|76|6326,285|76|6349,310|76|6374,333|76|6397,352|76|6416,375|76|6439,394|76|6458,417|76|6481,437|76|6501" oid="-1" prerendered="false" readable="false" rowHeight="38" shared="false"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="16" fixedrot="false" fric="0.2" gid="3" id="28" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="ammoPack" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="29" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="29" name="ammoPack" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="22" fixedrot="false" fric="0.2" gid="3" id="40" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="assaultCarbine" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="41" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="41" name="assaultCarbine" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="true" name="Animation 0" numframes="1" originx="25" originy="12" sync="false" version="2" width="50">
+            <poly data="4,0,0,50,0,50,25,0,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="21" fixedrot="false" fric="0.2" gid="3" id="38" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="assaultRifle" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="39" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="39" name="assaultRifle" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="true" name="Animation 0" numframes="1" originx="25" originy="12" sync="false" version="2" width="50">
+            <poly data="4,0,0,50,0,50,25,0,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-10.0" dy="-0.0" height="960" id="92" name="bg1" numframes="1" oid="-1" readable="false" repeats="true" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-30.0" dy="-0.0" height="960" id="94" name="bg3" numframes="1" oid="-1" readable="false" repeats="true" resized="false" shared="false" width="1920" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="44" fixedrot="false" fric="0.2" gid="3" id="95" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="bikePlayer" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="96" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="96" name="bikePlayer" readable="false" shared="false">
+        <anim across="2" down="2" durations="100,100,100,100" height="240" id="0" loop="true" name="Animation 0" numframes="4" originx="80" originy="60" sync="false" version="2" width="320"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="7" fixedrot="true" fric="0.2" gid="3" id="7" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bullet" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="8" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="8" name="bullet" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="4" id="0" loop="true" name="player" numframes="1" originx="7" originy="2" sync="false" version="2" width="15">
+            <poly data="4,0,0,15,0,15,4,0,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="4" id="1" loop="true" name="enemy" numframes="1" originx="7" originy="2" sync="false" version="2" width="15">
+            <poly data="4,0,0,15,0,15,4,0,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="4" id="2" loop="true" name="shotgunPlayer" numframes="1" originx="7" originy="2" sync="false" version="2" width="15">
+            <poly data="4,0,0,15,0,15,4,0,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="27" fixedrot="false" fric="0.2" gid="3" id="51" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="bullpup" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="52" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="52" name="bullpup" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="true" name="Animation 0" numframes="1" originx="25" originy="12" sync="false" version="2" width="50">
+            <poly data="4,0,0,50,0,50,25,0,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="38" fixedrot="true" fric="0.2" gid="3" id="73" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="cursor" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="74" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="74" name="cursor" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="true" name="Animation 0" numframes="1" originx="12" originy="12" sync="false" version="2" width="25"/>
+    </sprite>
+    <custom-block blocktag="custom-24" blocktype="ACTION" code=".say(&quot;Health Manager&quot;, &quot;_customBlock_Damage&quot;, []);" desc="Subtracts a specific amount of health from the Actor." global="false" gui="Damage %0 By %1" id="24" message="Damage" name="Damage" oid="-1" return="void" shared="false" snippetID="15">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="Amount" order="1" type="number"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="24" fixedrot="true" fric="0.2" gid="3" id="44" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="deathAnimations" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="45" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="2" defaultAnimation="2" desc="" id="45" name="deathAnimations" readable="false" shared="false">
+        <anim across="3" down="3" durations="100,100,100,100,100,100,10000" height="288" id="0" loop="false" name="Animation 0" numframes="7" originx="48" originy="48" sync="false" version="2" width="288"/>
+        <anim across="3" down="3" durations="100,100,100,100,100,100,1000" height="288" id="2" loop="false" name="Animation 0 Copy" numframes="7" originx="48" originy="48" sync="false" version="2" width="288"/>
+        <anim across="3" down="3" durations="100,100,100,100,100,100,1000" height="288" id="3" loop="false" name="2" numframes="7" originx="48" originy="48" sync="false" version="2" width="288"/>
+        <anim across="3" down="3" durations="100,100,100,100,100,100,1000" height="288" id="4" loop="false" name="1" numframes="7" originx="48" originy="48" sync="false" version="2" width="288"/>
+        <anim across="3" down="3" durations="100,100,100,100,100,100,1000" height="288" id="5" loop="false" name="3" numframes="7" originx="48" originy="48" sync="false" version="2" width="288"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="51" fixedrot="true" fric="0.2" gid="3" id="105" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="electricFloor" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="106" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="106" name="electricFloor" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="off" numframes="1" originx="48" originy="16" sync="false" version="2" width="96">
+            <poly data="4,0,0,96,0,96,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="2" down="1" durations="100,100" height="32" id="1" loop="true" name="on" numframes="2" originx="32" originy="32" sync="false" version="2" width="192">
+            <poly data="4,0,0,96,0,96,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="12" fixedrot="false" fric="0.2" gid="3" id="16" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="enemyArm" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="17" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="17" name="enemyArm" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="49" id="0" loop="true" name="Animation 0" numframes="1" originx="80" originy="24" sync="false" version="2" width="80">
+            <poly data="4,0,0,53,0,53,12,0,12" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="49" id="1" loop="true" name="Animation 0 Copy" numframes="1" originx="80" originy="24" sync="false" version="2" width="80">
+            <poly data="4,0,0,53,0,53,12,0,12" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="33" fixedrot="false" fric="0.2" gid="3" id="63" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="enemyArm2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="64" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="64" name="enemyArm2" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="49" id="0" loop="true" name="Animation 0" numframes="1" originx="80" originy="24" sync="false" version="2" width="80">
+            <poly data="4,25,19,78,19,78,31,25,31" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="49" id="1" loop="true" name="Animation 0 Copy" numframes="1" originx="80" originy="24" sync="false" version="2" width="80">
+            <poly data="4,23,20,76,20,76,32,23,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="34" fixedrot="false" fric="0.2" gid="3" id="65" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="enemyArm3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="66" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="66" name="enemyArm3" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="49" id="0" loop="true" name="Animation 0" numframes="1" originx="80" originy="24" sync="false" version="2" width="80">
+            <poly data="4,25,26,78,26,78,38,25,38" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="49" id="1" loop="true" name="Animation 0 Copy" numframes="1" originx="80" originy="24" sync="false" version="2" width="80">
+            <poly data="4,20,20,73,20,73,32,20,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="35" fixedrot="false" fric="0.2" gid="3" id="67" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="enemyArm4" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="68" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="68" name="enemyArm4" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="49" id="0" loop="true" name="Animation 0" numframes="1" originx="80" originy="24" sync="false" version="2" width="80">
+            <poly data="4,25,26,78,26,78,38,25,38" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="49" id="1" loop="true" name="Animation 0 Copy" numframes="1" originx="80" originy="24" sync="false" version="2" width="80">
+            <poly data="4,20,20,73,20,73,32,20,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="37" fixedrot="false" fric="0.2" gid="3" id="71" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="enemyArm5" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="72" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="72" name="enemyArm5" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="49" id="0" loop="true" name="Animation 0" numframes="1" originx="80" originy="24" sync="false" version="2" width="80">
+            <poly data="4,25,26,78,26,78,38,25,38" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="49" id="1" loop="true" name="Animation 0 Copy" numframes="1" originx="80" originy="24" sync="false" version="2" width="80">
+            <poly data="4,20,20,73,20,73,32,20,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="10" fixedrot="true" fric="0.0" gid="3" id="12" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="enemyBody" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="13" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="13" name="enemyBody" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="stand" numframes="1" originx="16" originy="32" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,27,0,27" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,27,32,27,32,64,0,64" density="0.1" fric="0.2" gid="4" id="1" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100" height="192" id="1" loop="true" name="walk" numframes="10" originx="16" originy="32" sync="false" version="2" width="128">
+            <poly data="4,0,0,32,0,32,27,0,27" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,27,32,27,32,64,0,64" density="0.1" fric="0.2" gid="4" id="1" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="53" fixedrot="true" fric="0.0" gid="3" id="109" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="enemyBody Copy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="110" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="110" name="enemyBody Copy" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="stand" numframes="1" originx="16" originy="32" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,27,0,27" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,27,32,27,32,64,0,64" density="0.1" fric="0.2" gid="4" id="1" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100" height="192" id="1" loop="true" name="walk" numframes="10" originx="16" originy="32" sync="false" version="2" width="128">
+            <poly data="4,0,0,32,0,32,27,0,27" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,27,32,27,32,64,0,64" density="0.1" fric="0.2" gid="4" id="1" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="11" fixedrot="false" fric="0.2" gid="3" id="14" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="enemyHead" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="15" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="15" name="enemyHead" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="23" id="0" loop="true" name="Animation 0" numframes="1" originx="11" originy="11" sync="false" version="2" width="22">
+            <poly data="4,0,0,22,0,22,23,0,23" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="19" fixedrot="true" fric="0.2" gid="3" id="34" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="enemyMoveLeft" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="35" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="35" name="enemyMoveLeft" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="12" id="0" loop="true" name="Animation 0" numframes="1" originx="6" originy="6" sync="false" version="2" width="12">
+            <poly data="4,0,0,12,0,12,12,0,12" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="18" fixedrot="true" fric="0.2" gid="3" id="32" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="enemyMoveRight" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="33" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="33" name="enemyMoveRight" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="12" id="0" loop="true" name="Animation 0" numframes="1" originx="6" originy="6" sync="false" version="2" width="12">
+            <poly data="4,0,0,12,0,12,12,0,12" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="42" fixedrot="true" fric="0.2" gid="3" id="80" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="explosion" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="81" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="81" name="explosion" readable="false" shared="false">
+        <anim across="3" down="3" durations="100,100,100,100,100,100,100,100" height="249" id="0" loop="true" name="Animation 0" numframes="8" originx="31" originy="41" sync="false" version="2" width="186">
+            <poly data="4,17,18,47,18,47,58,17,58" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="41" fixedrot="false" fric="0.2" gid="3" id="78" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="ExplosiveBarrell" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="79" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="79" name="ExplosiveBarrell" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="32" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="20" fixedrot="true" fric="0.2" gid="3" id="36" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="eyeScan" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="37" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="37" name="eyeScan" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="4" id="0" loop="true" name="player" numframes="1" originx="7" originy="2" sync="false" version="2" width="15">
+            <poly data="4,0,0,15,0,15,4,0,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="4" id="1" loop="true" name="enemy" numframes="1" originx="7" originy="2" sync="false" version="2" width="15">
+            <poly data="4,0,0,15,0,15,4,0,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <custom-block blocktag="custom-22" blocktype="ACTION" code=".say(&quot;Health Manager&quot;, &quot;_customBlock_FullRestore&quot;);" desc="" global="false" gui="Restore %0 To Full Health" id="22" message="FullRestore" name="FullRestore" oid="-1" return="void" shared="false" snippetID="15">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-27" blocktype="NORMAL" code="(.say(&quot;Health Manager&quot;, &quot;_customBlock_GetCurrentHealth&quot;) : Float)" desc="" global="false" gui="Current Health for %0" id="27" message="GetCurrentHealth" name="GetCurrentHealth" oid="-1" return="number" shared="false" snippetID="15">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-25" blocktype="NORMAL" code="(.say(&quot;Health Manager&quot;, &quot;_customBlock_GetInvincibility&quot;) : Bool)" desc="" global="false" gui="%0 Is Invincible?" id="25" message="GetInvincibility" name="GetInvincibility" oid="-1" return="boolean" shared="false" snippetID="15">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-26" blocktype="NORMAL" code="(.say(&quot;Health Manager&quot;, &quot;_customBlock_GetMaxHealth&quot;) : Float)" desc="" global="false" gui="Maximum Health For %0" id="26" message="GetMaxHealth" name="GetMaxHealth" oid="-1" return="number" shared="false" snippetID="15">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="156" id="113" name="getReadyFont" offsets="0|0|0|,12|0|12,22|0|22,40|0|40,65|0|65,88|0|88,124|0|124,155|0|155,165|0|165,179|0|179,194|0|194,212|0|212,236|0|236,247|0|247,261|0|261,271|0|271,287|0|287,310|0|310,326|0|326,350|0|350,373|0|373,398|0|398,421|0|421,444|0|444,467|0|467,490|0|490,513|0|513,523|0|523,533|0|533,557|0|557,581|0|581,605|0|605,629|0|629,671|0|671,705|0|705,732|0|732,762|0|762,790|0|790,816|0|816,839|0|839,870|0|870,896|0|896,906|0|906,928|0|928,958|0|958,982|0|982,1014|0|1014,1040|0|1040,1072|0|1072,1098|0|1098,1131|0|1131,1161|0|1161,1188|0|1188,1215|0|1215,1242|0|1242,1273|0|1273,1315|0|1315,1347|0|1347,1379|0|1379,1406|0|1406,1420|0|1420,1436|0|1436,1450|0|1450,1474|0|1474,1501|0|1501,1516|0|1516,1540|0|1540,1564|0|1564,1588|0|1588,1612|0|1612,1635|0|1635,1653|0|1653,1677|0|1677,1700|0|1700,1710|0|1710,1724|0|1724,1748|0|1748,1758|0|1758,1792|0|1792,1815|0|1815,1840|0|1840,1864|0|1864,1888|0|1888,1906|0|1906,1930|0|1930,1946|0|1946,1969|0|1969,1996|0|1996,2032|0|2032,2059|0|2059,2085|0|2085,2108|0|2108,2125|0|2125,2133|0|2133,2151|0|2151,2175|0|2175,2198|0|2198,2199|0|2199,2200|0|2200,2201|0|2201,2202|0|2202,2203|0|2203,2204|0|2204,2205|0|2205,2206|0|2206,2207|0|2207,2208|0|2208,2209|0|2209,2210|0|2210,2211|0|2211,2212|0|2212,2213|0|2213,2214|0|2214,2215|0|2215,2216|0|2216,2217|0|2217,2218|0|2218,2219|0|2219,2220|0|2220,2221|0|2221,2222|0|2222,2223|0|2223,2224|0|2224,2225|0|2225,2226|0|2226,2227|0|2227,2228|0|2228,2229|0|2229,2230|0|2230,2242|0|2242,2252|0|2252,2276|0|2276,2301|0|2301,2326|0|2326,2353|0|2353,2361|0|2361,2384|0|2384,2401|0|2401,2435|0|2435,2453|0|2453,2476|0|2476,2500|0|2500,2514|0|2514,2548|0|2548,2575|0|2575,2592|0|2592,2615|0|2615,2631|0|2631,2647|0|2647,2661|0|2661,2683|0|2683,2708|0|2708,2718|0|2718,2733|0|2733,2745|0|2745,2763|0|2763,2786|0|2786,2821|0|2821,2856|0|2856,2892|0|2892,2916|0|2916,2950|0|2950,2984|0|2984,0|52|3018,34|52|3052,68|52|3086,102|52|3120,147|52|3165,177|52|3195,203|52|3221,229|52|3247,255|52|3273,281|52|3299,295|52|3313,309|52|3327,328|52|3346,345|52|3363,375|52|3393,401|52|3419,433|52|3451,465|52|3483,497|52|3515,529|52|3547,561|52|3579,585|52|3603,618|52|3636,645|52|3663,672|52|3690,699|52|3717,726|52|3744,758|52|3776,784|52|3802,808|52|3826,832|52|3850,856|52|3874,880|52|3898,904|52|3922,928|52|3946,952|52|3970,988|52|4006,1012|52|4030,1035|52|4053,1058|52|4076,1081|52|4099,1104|52|4122,1118|52|4136,1132|52|4150,1151|52|4169,1168|52|4186,1193|52|4211,1216|52|4234,1241|52|4259,1266|52|4284,1291|52|4309,1316|52|4334,1341|52|4359,1364|52|4382,1390|52|4408,1413|52|4431,1436|52|4454,1459|52|4477,1482|52|4500,1508|52|4526,1532|52|4550,1558|52|4576,1592|52|4610,1616|52|4634,1650|52|4668,1674|52|4692,1708|52|4726,1732|52|4750,1762|52|4780,1786|52|4804,1816|52|4834,1840|52|4858,1870|52|4888,1894|52|4912,1924|52|4942,1948|52|4966,1976|52|4994,2007|52|5025,2037|52|5055,2064|52|5082,2090|52|5108,2113|52|5131,2139|52|5157,2162|52|5180,2188|52|5206,2211|52|5229,2238|52|5256,2261|52|5279,2287|52|5305,2310|52|5328,2341|52|5359,2365|52|5383,2396|52|5414,2420|52|5438,2451|52|5469,2475|52|5493,2506|52|5524,2530|52|5548,2556|52|5574,2579|52|5597,2611|52|5629,2636|52|5654,2654|52|5672,2672|52|5690,2688|52|5706,2704|52|5722,2720|52|5738,2736|52|5754,2747|52|5765,2758|52|5776,2768|52|5786,2778|52|5796,2807|52|5825,2827|52|5845,2855|52|5873,2874|52|5892,2904|52|5922,2928|52|5946,2952|52|5970,2976|52|5994,0|104|6008,24|104|6032,34|104|6042,58|104|6066,75|104|6083,99|104|6107,117|104|6125,144|104|6152,158|104|6166,184|104|6192,207|104|6215,233|104|6241,256|104|6264,282|104|6290,305|104|6313,335|104|6343,362|104|6370,385|104|6393,417|104|6425,442|104|6450,474|104|6482,499|104|6507,531|104|6539,557|104|6565,598|104|6606,637|104|6645,667|104|6675,685|104|6693,715|104|6723,733|104|6741,763|104|6771,782|104|6790,809|104|6817,833|104|6841,860|104|6868,884|104|6892,911|104|6919,935|104|6943,962|104|6970,986|104|6994,1013|104|7021,1030|104|7038,1057|104|7065,1080|104|7088,1107|104|7115,1123|104|7131,1150|104|7158,1173|104|7181,1200|104|7208,1223|104|7231,1250|104|7258,1273|104|7281,1300|104|7308,1323|104|7331,1350|104|7358,1374|104|7382,1401|104|7409,1425|104|7433,1467|104|7475,1503|104|7511,1535|104|7543,1561|104|7569,1593|104|7601,1620|104|7628,1643|104|7651,1670|104|7678,1693|104|7701,1720|104|7728,1743|104|7751" oid="-1" prerendered="false" readable="false" rowHeight="52" shared="false"/>
+    <custom-block blocktag="custom-23" blocktype="ACTION" code=".say(&quot;Health Manager&quot;, &quot;_customBlock_Heal&quot;, []);" desc="Adds a specific amount of health to the Actor." global="false" gui="Heal %0 By %1" id="23" message="Heal" name="Heal" oid="-1" return="void" shared="false" snippetID="15">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="Amount" order="1" type="number"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="23" fixedrot="false" fric="0.2" gid="3" id="42" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="heavyRifle" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="43" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="43" name="heavyRifle" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="true" name="Animation 0" numframes="1" originx="25" originy="12" sync="false" version="2" width="50">
+            <poly data="4,0,0,50,0,50,25,0,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="13" fixedrot="true" fric="0.2" gid="3" id="18" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="hp bar" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="19" static="false">
+        <snippets>
+            <s enabled="true" id="14">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="19" name="hp bar" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="true" name="Animation 0" numframes="1" originx="87" originy="12" sync="false" version="2" width="175"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="17" fixedrot="true" fric="0.2" gid="3" id="30" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="hpPack" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="31" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="31" name="hpPack" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,0,0,64,0,64,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="30" fixedrot="false" fric="0.2" gid="3" id="57" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="magicPistol" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="58" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="58" name="magicPistol" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="true" name="Animation 0" numframes="1" originx="12" originy="12" sync="false" version="2" width="25">
+            <poly data="4,0,0,25,0,25,25,0,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="36" fixedrot="false" fric="0.2" gid="3" id="69" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="minigun" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="70" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="70" name="minigun" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="true" name="Animation 0" numframes="1" originx="25" originy="12" sync="false" version="2" width="50">
+            <poly data="4,0,0,50,0,50,25,0,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="6" fixedrot="false" fric="0.2" gid="3" id="5" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="pistol" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="6" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="6" name="pistol" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="true" name="Animation 0" numframes="1" originx="12" originy="12" sync="false" version="2" width="25">
+            <poly data="4,0,0,25,0,25,25,0,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="52" fixedrot="true" fric="0.2" gid="3" id="107" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="plasmaWallRotate" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="108" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="108" name="plasmaWallRotate" readable="false" shared="false">
+        <anim across="2" down="1" durations="100,100" height="32" id="0" loop="true" name="Animation 0" numframes="2" originx="144" originy="16" sync="false" version="2" width="576">
+            <poly data="4,12,8,277,8,277,24,12,24" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="8" fixedrot="false" fric="0.2" gid="3" id="10" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="playerArms" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
+        <snippets>
+            <s enabled="true" id="5">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="2" list="0" val="0.0"/>
+                <prop id="3" list="0" val="0.0"/>
+                <prop id="4" list="0" val="0"/>
+                <prop id="5" list="0" val="false"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="2" defaultAnimation="2" desc="" id="11" name="playerArms" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="54" id="0" loop="true" name="pistol" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+        <anim across="1" down="1" durations="100" height="32" id="1" loop="true" name="roll" numframes="1" originx="0" originy="32" sync="false" version="2" width="64"/>
+        <anim across="1" down="1" durations="100" height="54" id="2" loop="true" name="none" numframes="1" originx="0" originy="27" sync="false" version="2" width="76">
+            <poly data="4,0,16,64,16,64,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="54" id="3" loop="true" name="assaultRifle" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+        <anim across="1" down="1" durations="100" height="54" id="4" loop="true" name="assaultCarbine" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+        <anim across="1" down="1" durations="100" height="54" id="5" loop="true" name="heavyRifle" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+        <anim across="1" down="1" durations="100" height="54" id="6" loop="true" name="shotgun" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+        <anim across="1" down="1" durations="100" height="54" id="7" loop="true" name="uzi" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+        <anim across="1" down="1" durations="100" height="54" id="8" loop="true" name="bullpup" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+        <anim across="1" down="1" durations="100" height="54" id="9" loop="true" name="silencedPistol" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+        <anim across="1" down="1" durations="100" height="54" id="10" loop="true" name="magicPistol" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+        <anim across="1" down="1" durations="100" height="54" id="11" loop="true" name="revolver" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+        <anim across="1" down="1" durations="100" height="54" id="12" loop="true" name="minigun" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+        <anim across="2" down="1" durations="100,100" height="54" id="13" loop="true" name="assaultCarbineshoot" numframes="2" originx="0" originy="27" sync="false" version="2" width="152"/>
+        <anim across="2" down="1" durations="100,100" height="54" id="14" loop="true" name="assaultRifleshoot" numframes="2" originx="0" originy="27" sync="false" version="2" width="174"/>
+        <anim across="1" down="1" durations="100" height="54" id="15" loop="true" name="bullpupshoot" numframes="1" originx="0" originy="27" sync="false" version="2" width="87"/>
+        <anim across="2" down="1" durations="100,100" height="54" id="16" loop="true" name="heavyRifleshoot" numframes="2" originx="0" originy="27" sync="false" version="2" width="174"/>
+        <anim across="1" down="1" durations="100" height="54" id="17" loop="true" name="minigunshoot" numframes="1" originx="0" originy="27" sync="false" version="2" width="95"/>
+        <anim across="1" down="1" durations="100" height="54" id="18" loop="true" name="magicPistolshoot" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+        <anim across="1" down="1" durations="100" height="54" id="19" loop="true" name="pistolshoot" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+        <anim across="1" down="1" durations="100" height="54" id="20" loop="true" name="revolvershoot" numframes="1" originx="0" originy="27" sync="false" version="2" width="87"/>
+        <anim across="2" down="2" durations="100,200,150,200" height="108" id="21" loop="true" name="shotgunshoot" numframes="4" originx="0" originy="27" sync="false" version="2" width="174"/>
+        <anim across="1" down="1" durations="100" height="54" id="22" loop="true" name="silencedPistolshoot" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+        <anim across="1" down="1" durations="100" height="54" id="23" loop="true" name="uzishoot" numframes="1" originx="0" originy="27" sync="false" version="2" width="76"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.04" gid="3" id="1" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="playerBody" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="2" static="false">
+        <snippets>
+            <s enabled="true" id="2">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="33" list="0" val="left"/>
+                <prop id="34" list="0" val="right"/>
+                <prop id="37" list="0" val="0.0"/>
+                <prop id="38" list="0" val="true"/>
+                <prop id="41" list="0" val="up"/>
+                <prop id="42" list="0" val="false"/>
+                <prop id="43" list="0" val="false"/>
+                <prop id="11" list="0" val="25"/>
+                <prop id="45" list="0" val="40"/>
+                <prop id="47" list="0" val=""/>
+                <prop id="48" list="0" val=""/>
+                <prop id="49" list="0" val=""/>
+                <prop id="50" list="0" val=""/>
+                <prop id="52" list="0" val="false"/>
+                <prop id="53" list="0" val=""/>
+                <prop id="54" list="0" val=""/>
+                <prop id="55" list="0" val="false"/>
+                <prop id="56" list="0" val="false"/>
+                <prop id="57" list="0" val="false"/>
+                <prop id="58" list="0" val="false"/>
+                <prop id="60" list="0" val="false"/>
+                <prop id="62" list="0" val="0.2"/>
+                <prop id="63" list="0" val="75"/>
+            </s>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val=""/>
+                <prop id="2" list="0" val=""/>
+            </s>
+            <s enabled="true" id="9">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="0.0"/>
+                <prop id="4" list="0" val="0.0"/>
+                <prop id="6" list="0" val="0.0"/>
+                <prop id="8" list="0" val="0.0"/>
+                <prop id="9" list="0" val="0.0"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" id="2" name="playerBody" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="idleLeft" numframes="1" originx="16" originy="32" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="1" loop="true" name="idleRight" numframes="1" originx="16" originy="32" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="2" durations="75,75,75,75,75,75" height="128" id="4" loop="true" name="rollLeft" numframes="6" originx="16" originy="32" sync="false" version="2" width="96">
+            <poly data="4,0,32,32,32,32,64,0,64" density="0.1" fric="0.2" gid="4" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="6" loop="true" name="duckLeft" numframes="1" originx="16" originy="32" sync="false" version="2" width="32">
+            <poly data="4,0,32,32,32,32,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="7" loop="true" name="duckRight" numframes="1" originx="16" originy="32" sync="false" version="2" width="32">
+            <poly data="4,0,32,32,32,32,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="8" loop="true" name="jumpLeft" numframes="1" originx="32" originy="32" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="9" loop="true" name="jumpRight" numframes="1" originx="16" originy="32" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100" height="192" id="10" loop="true" name="walkRight" numframes="10" originx="16" originy="32" sync="false" version="2" width="128">
+            <poly data="4,0,0,32,0,32,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="2" durations="75,75,75,75,75,75" height="128" id="11" loop="true" name="rollRight" numframes="6" originx="16" originy="32" sync="false" version="2" width="96">
+            <poly data="4,0,32,32,32,32,64,0,64" density="0.1" fric="0.2" gid="4" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100" height="192" id="12" loop="true" name="walkLeft" numframes="10" originx="16" originy="32" sync="false" version="2" width="128">
+            <poly data="4,0,0,32,0,32,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="4" fixedrot="false" fric="0.2" gid="3" id="3" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="playerHead" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="4" static="false">
+        <snippets>
+            <s enabled="true" id="5">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="2" list="0" val="0.0"/>
+                <prop id="3" list="0" val="0.0"/>
+                <prop id="4" list="0" val="0"/>
+                <prop id="5" list="0" val="false"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="2" defaultAnimation="2" desc="" id="4" name="playerHead" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="32" id="1" loop="true" name="roll" numframes="1" originx="0" originy="32" sync="false" version="2" width="64"/>
+        <anim across="1" down="1" durations="100" height="22" id="2" loop="true" name="none" numframes="1" originx="9" originy="22" sync="false" version="2" width="19"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="29" fixedrot="false" fric="0.2" gid="3" id="55" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="revolver" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="56" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="56" name="revolver" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="true" name="Animation 0" numframes="1" originx="12" originy="12" sync="false" version="2" width="25">
+            <poly data="4,0,0,25,0,25,25,0,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="49" fixedrot="true" fric="0.2" gid="3" id="101" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="saw" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="102" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="102" name="saw" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <circle data="32,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="50" fixedrot="true" fric="0.2" gid="3" id="103" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="securityCamera" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="104" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="104" name="securityCamera" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="alive" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,14,16,64,16,64,48,14,48" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="2" down="2" durations="150,150,150,1000" height="128" id="1" loop="false" name="dead" numframes="4" originx="32" originy="32" sync="false" version="2" width="128">
+            <poly data="4,14,16,64,16,64,48,14,48" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <custom-block blocktag="custom-21" blocktype="ACTION" code=".say(&quot;Health Manager&quot;, &quot;_customBlock_SetHealth&quot;, []);" desc="" global="false" gui="Set Health For %0 To %1" id="21" message="SetHealth" name="SetHealth" oid="-1" return="void" shared="false" snippetID="15">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="Amount" order="1" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-20" blocktype="ACTION" code=".say(&quot;Health Manager&quot;, &quot;_customBlock_SetInvincibility&quot;, []);" desc="" global="false" gui="Set Invincibility For %0 to %1" id="20" message="SetInvincibility" name="SetInvincibility" oid="-1" return="void" shared="false" snippetID="15">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="Status" order="1" type="boolean"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="26" fixedrot="true" fric="0.2" gid="3" id="49" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="shadow" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="50" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="50" name="shadow" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" sync="false" version="2" width="64"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="28" fixedrot="false" fric="0.2" gid="3" id="53" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="shotgun" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="54" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="54" name="shotgun" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="true" name="Animation 0" numframes="1" originx="25" originy="12" sync="false" version="2" width="50">
+            <poly data="4,0,0,50,0,50,25,0,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="31" fixedrot="false" fric="0.2" gid="3" id="59" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="silencedPistol" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="60" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="60" name="silencedPistol" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="true" name="Animation 0" numframes="1" originx="12" originy="12" sync="false" version="2" width="25">
+            <poly data="4,0,0,25,0,25,25,0,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="47" fixedrot="true" fric="0.2" gid="3" id="99" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="startButton" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="100" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="100" name="startButton" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="120" id="0" loop="true" name="Animation 0" numframes="1" originx="80" originy="60" sync="false" version="2" width="160">
+            <poly data="4,0,0,160,0,160,120,0,120" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <tileset across="2" atlasID="0" desc="" down="1" id="0" name="testTileset" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="1" id="1" order="-1"/>
+    </tileset>
+    <tileset across="8" atlasID="0" desc="" down="7" id="48" name="tiles01" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="6" id="6" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="7" id="7" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="8" id="8" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="9" id="9" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="10" id="10" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="11" id="11" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="12" id="12" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="13" id="13" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="14" id="14" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="15" id="15" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="16" id="16" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="17" id="17" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="18" id="18" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="19" id="19" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="20" id="20" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="21" id="21" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="22" id="22" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="23" id="23" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="24" id="24" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="25" id="25" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="26" id="26" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="27" id="27" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="28" id="28" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="29" id="29" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="30" id="30" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="31" id="31" order="-1"/>
+        <tile collision="3" data="" durations="100" frames="32" id="32" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="33" id="33" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="34" id="34" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="35" id="35" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="36" id="36" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="37" id="37" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="38" id="38" order="-1"/>
+        <tile collision="4" data="" durations="100" frames="39" id="39" order="-1"/>
+        <tile collision="3" data="" durations="100" frames="40" id="40" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="41" id="41" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="42" id="42" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="43" id="43" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="44" id="44" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="45" id="45" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="46" id="46" order="-1"/>
+        <tile collision="4" data="" durations="100" frames="47" id="47" order="-1"/>
+        <tile collision="2" data="" durations="100" frames="48" id="48" order="-1"/>
+        <tile collision="2" data="" durations="100" frames="49" id="49" order="-1"/>
+        <tile collision="2" data="" durations="100" frames="50" id="50" order="-1"/>
+        <tile collision="2" data="" durations="100" frames="51" id="51" order="-1"/>
+        <tile collision="2" data="" durations="100" frames="52" id="52" order="-1"/>
+        <tile collision="2" data="" durations="100" frames="53" id="53" order="-1"/>
+        <tile collision="2" data="" durations="100" frames="54" id="54" order="-1"/>
+        <tile collision="2" data="" durations="100" frames="55" id="55" order="-1"/>
+    </tileset>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="45" fixedrot="true" fric="0.2" gid="3" id="97" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="title" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="98" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="98" name="title" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="154" originy="32" sync="false" version="2" width="309"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="32" fixedrot="false" fric="0.2" gid="3" id="61" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="uzi" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="62" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="62" name="uzi" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="25" id="0" loop="true" name="Animation 0" numframes="1" originx="12" originy="12" sync="false" version="2" width="25">
+            <poly data="4,0,0,25,0,25,25,0,25" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="40" fixedrot="true" fric="0.2" gid="3" id="75" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="weaponAmmoBar" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="76" static="false">
+        <snippets>
+            <s enabled="true" id="14">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="76" name="weaponAmmoBar" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="87" id="0" loop="true" name="pistol" numframes="1" originx="43" originy="43" sync="false" version="2" width="87"/>
+        <anim across="1" down="1" durations="100" height="87" id="1" loop="true" name="none" numframes="1" originx="43" originy="43" sync="false" version="2" width="87"/>
+        <anim across="1" down="1" durations="100" height="87" id="2" loop="true" name="assaultCarbine" numframes="1" originx="43" originy="43" sync="false" version="2" width="87"/>
+        <anim across="1" down="1" durations="100" height="87" id="3" loop="true" name="assaultRifle" numframes="1" originx="43" originy="43" sync="false" version="2" width="87"/>
+        <anim across="1" down="1" durations="100" height="87" id="4" loop="true" name="bullpup" numframes="1" originx="43" originy="43" sync="false" version="2" width="87"/>
+        <anim across="1" down="1" durations="100" height="87" id="5" loop="true" name="heavyRifle" numframes="1" originx="43" originy="43" sync="false" version="2" width="87"/>
+        <anim across="1" down="1" durations="100" height="87" id="6" loop="true" name="magicPistol" numframes="1" originx="43" originy="43" sync="false" version="2" width="87"/>
+        <anim across="1" down="1" durations="100" height="87" id="7" loop="true" name="minigun" numframes="1" originx="43" originy="43" sync="false" version="2" width="87"/>
+        <anim across="1" down="1" durations="100" height="87" id="8" loop="true" name="revolver" numframes="1" originx="43" originy="43" sync="false" version="2" width="87"/>
+        <anim across="1" down="1" durations="100" height="87" id="9" loop="true" name="shotgun" numframes="1" originx="43" originy="43" sync="false" version="2" width="87"/>
+        <anim across="1" down="1" durations="100" height="87" id="10" loop="true" name="silencedPistol" numframes="1" originx="43" originy="43" sync="false" version="2" width="87"/>
+        <anim across="1" down="1" durations="100" height="87" id="11" loop="true" name="uzi" numframes="1" originx="43" originy="43" sync="false" version="2" width="87"/>
+    </sprite>
+</pack>

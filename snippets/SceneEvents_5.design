@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <draw-text comment="false" x="26" y="40">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <tostring comment="false" id="0" x="0" y="0">
+                            <int id="0" val="Mission "/>
+                        </tostring>
+                        <tostring comment="false" id="1" x="0" y="0">
+                            <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        </tostring>
+                    </str-combine>
+                    <int id="1" val=""/>
+                    <int id="2" val=""/>
+                </draw-text>
+                <if comment="false" x="26" y="75">
+                    <group eventID="1" id="-1">
+                        <set-val-54-1 comment="false" x="37" y="105">
+                            <int id="0" val="Stealth"/>
+                        </set-val-54-1>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </if>
+                <draw-text comment="false" x="26" y="137">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <tostring comment="false" id="0" x="0" y="0">
+                            <int id="0" val="Type:"/>
+                        </tostring>
+                        <tostring comment="false" id="1" x="0" y="0">
+                            <get-val-54-1 comment="false" id="0" x="0" y="0"/>
+                        </tostring>
+                    </str-combine>
+                    <int id="1" val=""/>
+                    <int id="2" val=""/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

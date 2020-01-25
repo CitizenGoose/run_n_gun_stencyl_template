@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="0" extheight="544" extwidth="2688" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="90.0" height="480" id="0" name="main01" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="2624">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="64" c="false" group="3" id="38" name="assaultRifle 64" order="12" sx="1.0" sy="1.0" x="1992" y="227" z="0"/>
+        <actor a="0.0" aid="1" c="false" group="3" id="1" name="playerBody 1" order="0" sx="1.0" sy="1.0" x="157" y="271" z="0"/>
+        <actor a="0.0" aid="65" c="false" group="3" id="40" name="assaultCarbine 65" order="13" sx="1.0" sy="1.0" x="1185" y="131" z="0"/>
+        <actor a="0.0" aid="66" c="false" group="3" id="42" name="heavyRifle 66" order="14" sx="1.0" sy="1.0" x="2119" y="230" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="5" name="pistol 3" order="1" sx="1.0" sy="1.0" x="1554" y="224" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="10" name="playerArms 4" order="2" sx="1.0" sy="1.0" x="82" y="298" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="3" name="playerHead 5" order="3" sx="1.0" sy="1.0" x="101" y="280" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="3" id="18" name="hp bar 9" order="4" sx="1.0" sy="1.0" x="72" y="4" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="12" name="enemyBody 10" order="5" sx="1.0" sy="1.0" x="570" y="280" z="0"/>
+        <actor a="0.0" aid="58" c="false" group="3" id="30" name="hpPack 58" order="6" sx="1.0" sy="1.0" x="73" y="152" z="0"/>
+        <actor a="0.0" aid="59" c="false" group="3" id="28" name="ammoPack 59" order="7" sx="1.0" sy="1.0" x="1306" y="79" z="0"/>
+        <actor a="0.0" aid="60" c="false" group="3" id="34" name="enemyMoveLeft 60" order="8" sx="1.0" sy="1.0" x="755" y="305" z="0"/>
+        <actor a="0.0" aid="61" c="false" group="3" id="32" name="enemyMoveRight 61" order="9" sx="1.0" sy="1.0" x="358" y="302" z="0"/>
+        <actor a="0.0" aid="62" c="false" group="3" id="14" name="enemyHead 62" order="10" sx="1.0" sy="1.0" x="578" y="265" z="0"/>
+        <actor a="0.0" aid="63" c="false" group="3" id="16" name="enemyArm 63" order="11" sx="1.0" sy="1.0" x="560" y="277" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="24,864.0,0.0,864.0,32.0,928.0,32.0,928.0,64.0,992.0,64.0,992.0,96.0,1024.0,96.0,1024.0,128.0,960.0,128.0,960.0,96.0,896.0,96.0,896.0,64.0,832.0,64.0,832.0,32.0,384.0,32.0,384.0,64.0,160.0,64.0,160.0,96.0,0.0,96.0,0.0,64.0,128.0,64.0,128.0,32.0,352.0,32.0,352.0,0.0" x="192.0" y="64.0"/>
+        <p pts="64,2592.0,0.0,2624.0,0.0,2624.0,480.0,2560.0,480.0,2560.0,384.0,2400.0,384.0,2400.0,480.0,1568.0,480.0,1568.0,384.0,1504.0,384.0,1504.0,352.0,1568.0,352.0,1568.0,288.0,1248.0,288.0,1248.0,320.0,1216.0,320.0,1216.0,384.0,1504.0,384.0,1504.0,416.0,1216.0,416.0,1216.0,480.0,0.0,480.0,0.0,0.0,64.0,0.0,64.0,224.0,96.0,224.0,96.0,288.0,128.0,288.0,128.0,352.0,320.0,352.0,320.0,320.0,352.0,320.0,352.0,352.0,800.0,352.0,800.0,320.0,832.0,320.0,832.0,256.0,864.0,256.0,864.0,320.0,896.0,320.0,896.0,352.0,1152.0,352.0,1152.0,288.0,1216.0,288.0,1216.0,256.0,1600.0,256.0,1600.0,288.0,1664.0,288.0,1664.0,256.0,1856.0,256.0,1856.0,288.0,1920.0,288.0,1920.0,256.0,2272.0,256.0,2272.0,288.0,2336.0,288.0,2336.0,256.0,2432.0,256.0,2432.0,288.0,2400.0,288.0,2400.0,352.0,2560.0,352.0,2560.0,224.0,2592.0,224.0" x="0.0" y="0.0"/>
+        <p pts="4,0.0,0.0,32.0,0.0,32.0,32.0,0.0,32.0" x="160.0" y="160.0"/>
+        <p pts="4,32.0,192.0,0.0,192.0,0.0,0.0,32.0,0.0" x="1408.0" y="0.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <setanim comment="false" x="37" y="93">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="roll"/>
+                        </setanim>
+                        <setanim comment="false" x="37" y="120">
+                            <ACTOR eid="var" id="0" vid="2"/>
+                            <int id="1" val="roll"/>
+                        </setanim>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="duck"/>
+                        </eq>
+                        <not comment="false" id="1" x="0" y="0">
+                            <and comment="false" id="0" x="0" y="0">
+                                <moreeq comment="false" id="0" x="0" y="0">
+                                    <get-dxy comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="0"/>
+                                    </get-dxy>
+                                    <int id="1" val="-5"/>
+                                </moreeq>
+                                <lesseq comment="false" id="1" x="0" y="0">
+                                    <get-dxy comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="0"/>
+                                    </get-dxy>
+                                    <int id="1" val="5"/>
+                                </lesseq>
+                            </and>
+                        </not>
+                    </and>
+                </if>
+                <else comment="false" x="26" y="159">
+                    <group eventID="2" id="-1">
+                        <setanim comment="false" x="37" y="179">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="none"/>
+                        </setanim>
+                        <if comment="false" x="37" y="206">
+                            <group eventID="2" id="-1">
+                                <setanim comment="false" x="48" y="236">
+                                    <ACTOR eid="var" id="0" vid="2"/>
+                                    <get-game-val-1 comment="false" id="1" x="0" y="0"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="no"/>
+                            </eq>
+                        </if>
+                        <else comment="false" x="37" y="280">
+                            <group eventID="2" id="-1">
+                                <setanim comment="false" x="48" y="300">
+                                    <ACTOR eid="var" id="0" vid="2"/>
+                                    <str-combine comment="false" id="1" x="0" y="0">
+                                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="shoot"/>
+                                    </str-combine>
+                                </setanim>
+                            </group>
+                        </else>
+                    </group>
+                </else>
+            </group>
+        </draw>
+    </group>
+    <group eventID="2" id="1">
+        <setanim comment="false" x="548" y="550">
+            <ACTOR eid="this" id="0"/>
+            <get-game-val-0 comment="false" id="1" x="0" y="0"/>
+        </setanim>
+    </group>
+    <group eventID="2" id="2">
+        <plus comment="false" x="733" y="210">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </plus>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <init comment="false" x="52" y="62">
+            <group eventID="3" id="-1">
+                <actors-of-type3 comment="false" x="63" y="87">
+                    <group eventID="3" id="-1">
+                        <set-val-3-1 comment="false" x="74" y="119">
+                            <actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </set-val-3-1>
+                    </group>
+                    <actortype eid="3" id="0"/>
+                </actors-of-type3>
+                <actors-of-type3 comment="false" x="63" y="163">
+                    <group eventID="3" id="-1">
+                        <set-val-3-2 comment="false" x="74" y="195">
+                            <actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </set-val-3-2>
+                    </group>
+                    <actortype eid="10" id="0"/>
+                </actors-of-type3>
+            </group>
+        </init>
+    </group>
+    <group eventID="3" id="1">
+        <set-val-3-1 comment="false" x="48" y="379">
+            <ACTOR eid="this" id="0"/>
+        </set-val-3-1>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="4" id="-1">
+                        <if comment="false" x="37" y="83">
+                            <group eventID="4" id="-1">
+                                <setanim comment="false" x="48" y="113">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="duckRight"/>
+                                </setanim>
+                                <if comment="false" x="48" y="140">
+                                    <group eventID="4" id="-1">
+                                        <setanim comment="false" x="59" y="183">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="duckRight"/>
+                                        </setanim>
+                                    </group>
+                                    <or comment="false" id="0" x="0" y="0">
+                                        <eq comment="false" id="0" x="0" y="0">
+                                            <getanim comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                            </getanim>
+                                            <int id="1" val="rollRight"/>
+                                        </eq>
+                                        <more comment="false" id="1" x="0" y="0">
+                                            <mousexy comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                                <int id="1" val="0"/>
+                                            </mousexy>
+                                            <get-xy comment="false" id="1" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                                <int id="1" val="4"/>
+                                            </get-xy>
+                                        </more>
+                                    </or>
+                                </if>
+                                <if comment="false" x="48" y="222">
+                                    <group eventID="4" id="-1">
+                                        <setanim comment="false" x="59" y="265">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="duckLeft"/>
+                                        </setanim>
+                                    </group>
+                                    <or comment="false" id="0" x="0" y="0">
+                                        <eq comment="false" id="0" x="0" y="0">
+                                            <getanim comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                            </getanim>
+                                            <int id="1" val="rollLeft"/>
+                                        </eq>
+                                        <more comment="false" id="1" x="0" y="0">
+                                            <get-xy comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                                <int id="1" val="4"/>
+                                            </get-xy>
+                                            <mousexy comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                                <int id="1" val="0"/>
+                                            </mousexy>
+                                        </more>
+                                    </or>
+                                </if>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="duck"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="316">
+                            <group eventID="4" id="-1">
+                                <setanim comment="false" x="48" y="346">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="idleRight"/>
+                                </setanim>
+                                <if comment="false" x="48" y="373">
+                                    <group eventID="4" id="-1">
+                                        <setanim comment="false" x="59" y="416">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="idleRight"/>
+                                        </setanim>
+                                        <if comment="false" x="59" y="443">
+                                            <group eventID="4" id="-1">
+                                                <setanim comment="false" x="70" y="491">
+                                                    <ACTOR eid="this" id="0"/>
+                                                    <int id="1" val="jumpRight"/>
+                                                </setanim>
+                                            </group>
+                                            <not comment="false" id="0" x="0" y="0">
+                                                <and comment="false" id="0" x="0" y="0">
+                                                    <more comment="false" id="0" x="0" y="0">
+                                                        <get-dxy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="this" id="0"/>
+                                                            <int id="1" val="1"/>
+                                                        </get-dxy>
+                                                        <int id="1" val="-3"/>
+                                                    </more>
+                                                    <less comment="false" id="1" x="0" y="0">
+                                                        <get-dxy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="this" id="0"/>
+                                                            <int id="1" val="1"/>
+                                                        </get-dxy>
+                                                        <int id="1" val="3"/>
+                                                    </less>
+                                                </and>
+                                            </not>
+                                        </if>
+                                    </group>
+                                    <or comment="false" id="0" x="0" y="0">
+                                        <eq comment="false" id="0" x="0" y="0">
+                                            <getanim comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                            </getanim>
+                                            <int id="1" val="walkRight"/>
+                                        </eq>
+                                        <more comment="false" id="1" x="0" y="0">
+                                            <mousexy comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                                <int id="1" val="0"/>
+                                            </mousexy>
+                                            <get-xy comment="false" id="1" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                                <int id="1" val="4"/>
+                                            </get-xy>
+                                        </more>
+                                    </or>
+                                </if>
+                                <if comment="false" x="48" y="542">
+                                    <group eventID="4" id="-1">
+                                        <setanim comment="false" x="59" y="585">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="idleLeft"/>
+                                        </setanim>
+                                        <if comment="false" x="59" y="612">
+                                            <group eventID="4" id="-1">
+                                                <setanim comment="false" x="70" y="660">
+                                                    <ACTOR eid="this" id="0"/>
+                                                    <int id="1" val="jumpLeft"/>
+                                                </setanim>
+                                            </group>
+                                            <not comment="false" id="0" x="0" y="0">
+                                                <and comment="false" id="0" x="0" y="0">
+                                                    <more comment="false" id="0" x="0" y="0">
+                                                        <get-dxy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="this" id="0"/>
+                                                            <int id="1" val="1"/>
+                                                        </get-dxy>
+                                                        <int id="1" val="-3"/>
+                                                    </more>
+                                                    <less comment="false" id="1" x="0" y="0">
+                                                        <get-dxy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="this" id="0"/>
+                                                            <int id="1" val="1"/>
+                                                        </get-dxy>
+                                                        <int id="1" val="3"/>
+                                                    </less>
+                                                </and>
+                                            </not>
+                                        </if>
+                                    </group>
+                                    <or comment="false" id="0" x="0" y="0">
+                                        <eq comment="false" id="0" x="0" y="0">
+                                            <getanim comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                            </getanim>
+                                            <int id="1" val="walkLeft"/>
+                                        </eq>
+                                        <more comment="false" id="1" x="0" y="0">
+                                            <get-xy comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="this" id="0"/>
+                                                <int id="1" val="4"/>
+                                            </get-xy>
+                                            <mousexy comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                                <int id="1" val="0"/>
+                                            </mousexy>
+                                        </more>
+                                    </or>
+                                </if>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="stand"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <lesseq comment="false" id="0" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="5"/>
+                        </lesseq>
+                        <moreeq comment="false" id="1" x="0" y="0">
+                            <get-dxy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-dxy>
+                            <int id="1" val="-5"/>
+                        </moreeq>
+                    </and>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="4" id="1">
+        <if comment="false" x="942" y="523">
+            <group eventID="4" id="-1">
+                <setanim comment="false" x="953" y="561">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="walkLeft"/>
+                </setanim>
+            </group>
+            <lesseq comment="false" id="0" x="0" y="0">
+                <get-dxy comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                </get-dxy>
+                <int id="1" val="0"/>
+            </lesseq>
+        </if>
+        <if comment="false" x="942" y="600">
+            <group eventID="4" id="-1">
+                <setanim comment="false" x="953" y="638">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="walkRight"/>
+                </setanim>
+            </group>
+            <moreeq comment="false" id="0" x="0" y="0">
+                <get-dxy comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                </get-dxy>
+                <int id="1" val="1"/>
+            </moreeq>
+        </if>
+    </group>
+    <group eventID="4" id="2">
+        <if comment="false" x="941" y="278">
+            <group eventID="4" id="-1">
+                <setanim comment="false" x="952" y="316">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="rollLeft"/>
+                </setanim>
+            </group>
+            <lesseq comment="false" id="0" x="0" y="0">
+                <get-dxy comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                </get-dxy>
+                <int id="1" val="0"/>
+            </lesseq>
+        </if>
+        <if comment="false" x="941" y="355">
+            <group eventID="4" id="-1">
+                <setanim comment="false" x="952" y="393">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="rollRight"/>
+                </setanim>
+            </group>
+            <moreeq comment="false" id="0" x="0" y="0">
+                <get-dxy comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                </get-dxy>
+                <int id="1" val="1"/>
+            </moreeq>
+        </if>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <draw comment="false" x="16" y="17">
+            <group eventID="5" id="-1">
+                <if comment="false" x="27" y="42">
+                    <group eventID="5" id="-1">
+                        <if comment="false" x="38" y="90">
+                            <group eventID="5" id="-1">
+                                <if comment="false" x="49" y="120">
+                                    <group eventID="5" id="-1">
+                                        <setanim comment="false" x="60" y="158">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="rollLeft"/>
+                                        </setanim>
+                                    </group>
+                                    <lesseq comment="false" id="0" x="0" y="0">
+                                        <get-dxy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-dxy>
+                                        <int id="1" val="0"/>
+                                    </lesseq>
+                                </if>
+                                <if comment="false" x="49" y="197">
+                                    <group eventID="5" id="-1">
+                                        <setanim comment="false" x="60" y="235">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="rollRight"/>
+                                        </setanim>
+                                    </group>
+                                    <moreeq comment="false" id="0" x="0" y="0">
+                                        <get-dxy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-dxy>
+                                        <int id="1" val="1"/>
+                                    </moreeq>
+                                </if>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="duck"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="38" y="286">
+                            <group eventID="5" id="-1">
+                                <if comment="false" x="49" y="316">
+                                    <group eventID="5" id="-1">
+                                        <setanim comment="false" x="60" y="354">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="walkLeft"/>
+                                        </setanim>
+                                        <if comment="false" x="60" y="381">
+                                            <group eventID="5" id="-1">
+                                                <setanim comment="false" x="71" y="429">
+                                                    <ACTOR eid="this" id="0"/>
+                                                    <int id="1" val="jumpLeft"/>
+                                                </setanim>
+                                            </group>
+                                            <not comment="false" id="0" x="0" y="0">
+                                                <and comment="false" id="0" x="0" y="0">
+                                                    <more comment="false" id="0" x="0" y="0">
+                                                        <get-dxy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="this" id="0"/>
+                                                            <int id="1" val="1"/>
+                                                        </get-dxy>
+                                                        <int id="1" val="-3"/>
+                                                    </more>
+                                                    <less comment="false" id="1" x="0" y="0">
+                                                        <get-dxy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="this" id="0"/>
+                                                            <int id="1" val="1"/>
+                                                        </get-dxy>
+                                                        <int id="1" val="3"/>
+                                                    </less>
+                                                </and>
+                                            </not>
+                                        </if>
+                                    </group>
+                                    <lesseq comment="false" id="0" x="0" y="0">
+                                        <get-dxy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-dxy>
+                                        <int id="1" val="0"/>
+                                    </lesseq>
+                                </if>
+                                <if comment="false" x="49" y="480">
+                                    <group eventID="5" id="-1">
+                                        <setanim comment="false" x="60" y="518">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="walkRight"/>
+                                        </setanim>
+                                        <if comment="false" x="60" y="545">
+                                            <group eventID="5" id="-1">
+                                                <setanim comment="false" x="71" y="593">
+                                                    <ACTOR eid="this" id="0"/>
+                                                    <int id="1" val="jumpRight"/>
+                                                </setanim>
+                                            </group>
+                                            <not comment="false" id="0" x="0" y="0">
+                                                <and comment="false" id="0" x="0" y="0">
+                                                    <more comment="false" id="0" x="0" y="0">
+                                                        <get-dxy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="this" id="0"/>
+                                                            <int id="1" val="1"/>
+                                                        </get-dxy>
+                                                        <int id="1" val="-3"/>
+                                                    </more>
+                                                    <less comment="false" id="1" x="0" y="0">
+                                                        <get-dxy comment="false" id="0" x="0" y="0">
+                                                            <ACTOR eid="this" id="0"/>
+                                                            <int id="1" val="1"/>
+                                                        </get-dxy>
+                                                        <int id="1" val="3"/>
+                                                    </less>
+                                                </and>
+                                            </not>
+                                        </if>
+                                    </group>
+                                    <moreeq comment="false" id="0" x="0" y="0">
+                                        <get-dxy comment="false" id="0" x="0" y="0">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="0"/>
+                                        </get-dxy>
+                                        <int id="1" val="1"/>
+                                    </moreeq>
+                                </if>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="stand"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <and comment="false" id="0" x="0" y="0">
+                            <lesseq comment="false" id="0" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-dxy>
+                                <int id="1" val="5"/>
+                            </lesseq>
+                            <moreeq comment="false" id="1" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-dxy>
+                                <int id="1" val="-5"/>
+                            </moreeq>
+                        </and>
+                    </not>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="5" id="-1"/>
+</groups>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-val-7-1 comment="false" x="26" y="40">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-7-1>
+                <code-long comment="false" x="26" y="65">
+                    <int id="0" val="actor.growTo(200/100, 150/100, 0, Easing.linear);"/>
+                </code-long>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-delay comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-7-1 comment="false" x="26" y="42">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-7-1>
+            </group>
+            <int id="0" val="0.00000001"/>
+            <ACTOR eid="this" id="2"/>
+        </event-delay>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="47">
+                    <group eventID="3" id="-1">
+                        <die comment="false" x="37" y="72">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <get-val-7-1 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="1" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-delay comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <die comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <int id="0" val="20"/>
+            <ACTOR eid="this" id="2"/>
+        </event-delay>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-actor-screen comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <die comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="1"/>
+            <int id="2" val="1"/>
+        </event-actor-screen>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="6" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="6" id="-1"/>
+    <group eventID="7" id="0">
+        <event-delay comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="7" id="-1">
+                        <die comment="false" x="37" y="80">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-dxy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </get-dxy>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+            </group>
+            <int id="0" val="1"/>
+            <ACTOR eid="this" id="2"/>
+        </event-delay>
+    </group>
+    <group eventID="7" id="1">
+        <die comment="false" x="109" y="214">
+            <ACTOR eid="this" id="0"/>
+        </die>
+    </group>
+    <group eventID="7" id="-1"/>
+    <group eventID="8" id="0">
+        <event-delay comment="false" x="15" y="15">
+            <group eventID="8" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="8" id="-1">
+                        <setanim comment="false" x="37" y="80">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="player"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <getanim comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </getanim>
+                        <int id="1" val="shotgunPlayer"/>
+                    </eq>
+                </if>
+            </group>
+            <int id="0" val="0.1"/>
+            <ACTOR eid="this" id="2"/>
+        </event-delay>
+    </group>
+    <group eventID="8" id="-1"/>
+</groups>

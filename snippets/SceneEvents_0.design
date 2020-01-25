@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-val-0-1 comment="false" x="26" y="40">
+                    <shader-tint comment="false" id="0" x="0" y="0">
+                        <color b="0" g="200" id="0" r="255"/>
+                        <int id="1" val="150"/>
+                    </shader-tint>
+                </set-val-0-1>
+                <shader-apply comment="false" x="26" y="73">
+                    <get-val-0-1 comment="false" id="0" x="0" y="0"/>
+                </shader-apply>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <print comment="false" x="26" y="40">
+                    <mousexy comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="0"/>
+                    </mousexy>
+                </print>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

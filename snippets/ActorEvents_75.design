@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="77" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="26" y="67">
+                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                    <plus comment="false" id="1" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </get-xy>
+                        <int id="1" val="50"/>
+                    </plus>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <get-xy comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </get-xy>
+                        <int id="1" val="50"/>
+                    </plus>
+                </draw-text>
+                <if comment="false" x="26" y="105">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="153">
+                            <ACTOR eid="this" id="0"/>
+                            <get-game-val-1 comment="false" id="1" x="0" y="0"/>
+                        </setanim>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <tostring comment="false" id="0" x="0" y="0">
+                                <getanim comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </getanim>
+                            </tostring>
+                            <get-game-val-1 comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                    </not>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="1">
+        <set-color comment="false" x="64" y="313">
+            <color b="255" g="255" id="0" r="255"/>
+        </set-color>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>
